@@ -1,0 +1,95 @@
+li {
+	display: inline;
+	padding-left: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	position: absolute;
+	margin-top: 0;
+}
+
+#hero {
+	margin-top: 0;
+	height: 650px;
+	position: relative;
+	background-image : url(http://www.rokivo.com/wp-content/uploads/2014/12/hero-1.jpg); 
+	width: 100%;
+	z-index: -1;
+	margin-top: -22px;
+
+}
+
+
+#row {
+	margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+#greet h1{
+	color: #D06E32;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 48px;
+}
+
+#hero p{
+	margin-top: -5px;
+	color: #D06E32;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#greet {
+	width: 80%;
+	margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+   	padding-top: 350px;
+   	font-weight: lighter;
+
+}
+
+#buttonMiddle {
+	width: 100%;
+	margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-left: 430px;
+    
+
+}
+
+#donateCenter {
+	margin-right: auto;
+    margin-left: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: #D06E32;
+    background-color: transparent;
+    border: 2px solid;
+    color: #D06E32;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+
+
+}
+
+
