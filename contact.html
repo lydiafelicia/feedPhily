@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Feeding Philadelphia - CONTACT US</title>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 		</script>
 		<script src="main.js"></script>
@@ -11,52 +12,104 @@
 
 <body>
 	<header>
-		<a id="logo" href="#"><img src="imgs/logo_crop.png" alt=""></a>
-
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Donate</a></li>
-				<li><a href="#">Contact Us</a></li>
+	<nav>
+		<div id="row">
+			<ul class="navbar">
+				<li><a class="nav-text2" href="index.html">Home</a></li>
+				<li><a class="nav-text2" href="#">About</a></li>
+				<li><a class="nav-text2" href="donate.html">Donate</a></li>
+				<li><a class="nav-text2" href="contact.html">Contact Us</a></li>
 			</ul>	
 		</nav>
+		<a id="logo" href="#"><img src="imgs/logo_crop.png" alt=""></a>
 		</header>
 
 		<div id="contactHeader"></div>
 		<div id="officeDetail"></div>
-		<div id="mapHeere"></div>
+		<iframe src="https://www.google.com/maps/embed/v1/place?q=1500%20Market%20Street%2C%20Philadelphia%2C%20PA%2C%20United%20States&key=AIzaSyDabXiHRskCiko9mk_cw4YcLXxnqDj3vkQ" allowfullscreen></iframe>
+		<div id="contactForm2">
+			<div id="center">
 			<form>
-			<p>First name*</p>
-			<input type="text" name="firstname">
-			<br>
-			<p>Last name*</p>
-			<input type="text" name="lastname">
-			<p>Email Address*</p>
-			<input type="email" name="emailaddress">
-			<p>Home Address</p>
-			<input type="text" name="homeaddress">
-			<p>City</p>
-			<input type="text" name="city">
-			<p>State</p>
-			<input type="text" name="state">
-			<p>ZIP</p>
-			<input type="text" name="zip">
-			<p>Inquiry</p>
-			<select name="inquiry">
-			<option value="gettingfood">Getting food</option>
-			<option value="donation">Donation</option>
-			<option value="newsletter">Newsletter and mails</option>
-			<option value="learn">Learn more about hunger research and statistic</option>
-			<option value="tech">Website technical question</option>
-			<option value="volunteer">Finding volunteer opportunities</option>
-			</select>
-			<p>Comments</p>
-			<textarea name="message" rows="1" cols="30">
-			</textarea>
-			<input type="checkbox" name="nlconfirm" value="nlconfirm">I would like to receive letter from Feeding Philly.
-			<button type="button">Submit</button>
-			</form>
-		<div id="contactForm"> </div>
+				<table>
+				<tr>
+				<td>First name*</td>
+				<td></td>
+				<td>Last name*</td>
+				</tr>
+				<tr>
+				<td><input type="text" name="firstname" size="30"></td>
+				<td width="50px"></td>
+				<td><input type="text" name="lastname" size="30"></td>
+				</tr>
+				<tr>
+				<td height="20px"></td>
+				</tr>
+				<tr>
+				<td>Email Address*</td>
+				<td></td>
+				<td>Home Address*</td>
+				</tr>
+				<tr>
+				<td><input type="email" name="emailaddress" size="30"></td>
+				<td width="50px"></td>
+				<td><input type="text" name="homeaddress" size="30"></td>
+				</tr>
+				</table>
+				
+				<br>
+				
+				<table>
+				<tr>
+				<td>City</td>
+				<td></td>
+				<td>State</td>
+				<td></td>
+				<td>ZIP</td>
+				</tr>
+				<tr>
+				<td><input type="text" name="city" size="10"></td>
+				<td width="37.5px"></td>
+				<td><input type="text" name="state" size="15"></td>
+				<td width="37.5px"></td>
+				<td><input type="text" name="zip" size="15"></td>
+				</tr>
+				</table>
+				
+				<br>
+				<table>
+				<tr>
+				<td>Inquiry</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="select-styleWhite">
+					<select>
+					<option value="gettingfood">Getting food</option>
+					<option value="donation">Donation</option>
+					<option value="newsletter">Newsletter and mails</option>
+					<option value="learn">Learn more about hunger research and statistic</option>
+					<option value="tech">Website technical question</option>
+					<option value="volunteer">Finding volunteer opportunities</option>
+					</select>
+				</div>
+				</td>
+				</tr>
+				</table>
+				<p>Comments</p>
+				<textarea name="message" rows="5" cols="30">
+				</textarea>
+				<br>
+				<br>
+				<input id ="check" type="checkbox" name="nlconfirm" value="nlconfirm"><span>I would like to receive letter from Feeding Philly.</span>
+				<br>
+				<button type="button" Id="submitButton-white">Submit</button>
+				</form>
+				<br>
+				<br>
+			</div>
+		</div>
+</body>
+
+</html>
 
 		
