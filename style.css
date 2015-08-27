@@ -205,7 +205,7 @@ header{
 
 #donateSection{
 height: 300px;
-background-color: gray;
+background-image:url("images/donate-bg.jpg");
 }
 
 #middleDonate{
@@ -302,7 +302,7 @@ input {
     border-radius: 1px;
     background-color: transparent;
     overflow: hidden;
-     background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 98% 50%;
+     background: #fff url("images/arrow-black.png") no-repeat 98% 50%;
 }
 
 .select-style select {
@@ -432,7 +432,7 @@ iframe {
     border-radius: 1px;
     background-color: transparent;
     overflow: hidden;
-     background: #EE5B4C url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 98% 50%;
+     background: #EE5B4C url("images/arrow-white.png") no-repeat 98% 50%;
 }
 
 .select-styleWhite select {
@@ -487,4 +487,83 @@ iframe {
 	height: 200px;
 	width: 100%;
 	background-image : url(images/donate-banner.jpg);
+}
+
+#mainDonate h2 {
+	color: #D06E32;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#mainDonate {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#produceImg {
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#donateForm {
+
+	background-color: transparent;
+	color: #4A4A4A;
+	font-size: 12px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#donateForm h4{
+	font-size: 14px;
+
+}
+
+#line {
+	display: inline;
+	float: right;
+	position: relative;
+	padding-top: 18px;
+	margin-left: -18px;
+}
+
+#creditCard {
+	margin-left: 3px
+	}
+
+
+.select-style-small {
+	padding: 0;
+    margin: 0;
+    border: 2px solid #4A4A4A;;
+    color: #4A4A4A;
+    width: 55px;
+    height: 20px;
+    border-radius: 1px;
+    background-color: transparent;
+    overflow: hidden;
+     background: #fff url("images/arrow-black.png") no-repeat 90% 50%;
+}
+
+.select-style-small select {
+    padding: 3px 4px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style-small select:focus {
+    outline: none;
 }

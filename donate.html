@@ -27,41 +27,98 @@
 		<div id="mainDonate">
 		<h2>Giving the Joy</h2>
 		<p></p>
-		<img src="images/produce.jpg">
+		<div id="produceImg"><img src="images/produce.jpg"></div>
 
+		<div id="donateForm">
 		<form>
-			<p>First name*</p>
-			<input type="text" name="firstname">
+			<table>
+			<tr>
+			<td>First name*</td>
+			<td></td>
+			<td>Last name*</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="firstname" size="30"></td>
+			<td width="5px"></td>
+			<td><input type="text" name="lastname" size="30"></td>
+			</tr>
+				<tr>
+				<td height="15px"></td>
+				</tr>
+			<tr>
+			<td>Email Address*</td>
+			<td></td>
+			</tr> 
+			<tr>
+			<td><input type="email" name="emailaddress" size="30"></td>
+			</tr>
+				<tr>
+				<td height="15px"></td>
+				</tr>
+			<tr>
+			<td>Amount Donated*</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="amount"></td>
+			</tr>
+				<tr>
+				<td height="8px"></td>
+				</tr>
+			<tr>
+			<td> <input type="checkbox" name="nlconfirm" value="nlconfirm">I would like to receive letter from Feeding Philly.</td>
+			</tr>
+			</table>
 			<br>
-			<p>Last name*</p>
-			<input type="text" name="lastname">
-			<p>Email Address*</p>
-			<input type="email" name="emailaddress">
-			<p>Amount Donated</p>
-			<input type="text" name="amount">
-			<input type="checkbox" name="nlconfirm" value="nlconfirm">I would like to receive letter from Feeding Philly.
-
-			<h4> Billing & Payment Information</h4>
-
-
-			<p>Credit Card Number*</p>
-			<input type="text" name="cc">
-			<img src="images/cclogo.jpg">
-			<p>Expiration Date</p>
-			<input type="text" name="expdate">
+			<br>
+			<div id="line"><img src="images/line.png"></div>
+			
+			<h4> Billing & Payment Information</h4> 
+			
+			<table>
+			<tr>
+			<td>Credit Card Number*</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="cc">
+				<img id="creditCard" src="images/cclogo.jpg"></td>
+			</tr>
+				<tr>
+				<td height="8px"></td>
+				</tr>
+			<tr>
+			<td>Expiration Date</td>
+			</tr>
+			
+			<tr>
+			<td><div class="select-style-small">
 				<select name="Month">
 				<option value="08">08</option>
 				</select>
-
+				</div>
+			</td>
+			<td>
+				<div class="select-style-small">
 				<select name="Year">
 				<option value="2015">2015</option>
 				</select>
-			<p>CVV Number*</p>
-			<input type="text" name="cvv">
+				</div>
+			</td>
+				<tr>
+				<td height="8px"></td>
+				</tr>
+			</tr>
 			
-			<button type="button">Submit</button>
-			</form>
+			<tr>
+			<td>CVV Number*</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="cvv"></td>
+			</tr>
+			</table>
 
+			<button type="button" Id="submitButton">Submit</button>
+			</form>
+		</div>
 		</div>
 
 </body>
