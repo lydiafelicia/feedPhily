@@ -59,14 +59,6 @@ header{
 	letter-spacing: 1px;
 }
 
-#logo {
-	float: left;
-    padding-left: 15px;
-    display: inline-block;
-    position: relative;
-
-}
-
 #row {
 	width: 100%;
 	position: relative;
@@ -80,7 +72,7 @@ header{
 	margin-top: 0;
 	height: 650px;
 	position: relative;
-	background-image : url(images/hero-bg.jpg); 
+	background-image : url(images/hero.jpg); 
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
@@ -89,7 +81,7 @@ header{
 
 
 #greet h1{
-	color: #D06E32;
+	color: #f4f4f4;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	text-align: center;
@@ -100,7 +92,7 @@ header{
 #hero p{
 	margin-top: -20px;
 	margin-bottom: 30px;
-	color: #D06E32;
+	color: #f4f4f4;
 	letter-spacing: 1px;
 	text-align: center;
 	font-size: 12px;
@@ -136,6 +128,7 @@ header{
     letter-spacing: 1;
     font-size: 12px;
     letter-spacing: 1.5px;
+    font-weight: normal;
 }
 
 #donate1:hover {
@@ -217,8 +210,9 @@ background-image:url("images/donate-bg.jpg");
 	color: #f4f4f4;
 	letter-spacing: 1px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: normal;
+	margin-bottom: 25px;
 }
 
 #donateButton {
@@ -326,7 +320,7 @@ input {
 }
 
 #submitButton {
-	margin-top: 30px;
+	margin-top: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -342,7 +336,7 @@ input {
 }
 
 #submitButton:hover {
-	margin-top: 30px;
+	margin-top: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -358,6 +352,7 @@ input {
 }
 
 #left{
+	margin-top: 20px;
 	float:left;
 	width:60%;
 }
@@ -368,7 +363,7 @@ input {
 	background-repeat: no-repeat;
 	margin-right: 0;
 	width:35%;
-	height:545px;
+	height:560px;
 }
 
 
@@ -391,7 +386,6 @@ td {
 iframe {
 	width: 100%;
 	height:450px;
-	border:none;
 }
 /* TABLE @CONTACT.HTML STYLING */
 #contactForm2 {
@@ -489,10 +483,32 @@ iframe {
 	background-image : url(images/donate-banner.jpg);
 }
 
+#atas{
+		background-color:transparent;
+		height:70px;
+}
+
+#logo {
+	float: left;
+	padding-top:30px;
+    padding-left: 15px;
+    display: inline-block;
+    position: relative;
+	z-index:999;
+}
+
 #mainDonate h2 {
 	color: #D06E32;
 	text-align: center;
 	margin-top: 50px;
+}
+
+#mainDonate p {
+	color: #4A4A4A;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+
 }
 
 #mainDonate {
@@ -501,10 +517,17 @@ iframe {
 	margin-left: auto;
 }
 
+#paraDonate{
+	width: 48%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
 #produceImg {
 	width: 50%;
 	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 55px;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -530,12 +553,12 @@ iframe {
 	display: inline;
 	float: right;
 	position: relative;
-	padding-top: 18px;
-	margin-left: -18px;
+	width:210px;
 }
 
 #creditCard {
-	margin-left: 3px
+	margin-left: 3px;
+	position: relative;
 	}
 
 
@@ -567,3 +590,195 @@ iframe {
 .select-style-small select:focus {
     outline: none;
 }
+
+#submitButton2 {
+	margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #EE5B4C;
+    background-color: transparent;
+    border: 2px solid;
+    color: #EE5B4C;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+#submitButton2:hover {
+	margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: #EE5B4C;
+    border: 2px solid #EE5B4C;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+/* ABOUT PAGE CSS */
+#about {
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 200px;
+}
+
+#about h1{
+	color: #D06E32;
+	letter-spacing: 2px;
+}
+
+#about p {
+	color: #4A4A4A;
+	text-align: left;
+	font-size: 14px;
+
+}
+
+#about1 {
+	width: 50%;
+	margin-left: 40px;
+
+}
+
+#about1 img {
+	width: 70%;
+	height: 70%;
+}
+
+
+#p-left1 {
+	float: left;
+	display: inline;
+	position: absolute;
+	width: 45%;
+	margin-left: 10px;
+	margin-top: -14px;
+}
+
+#about2 {
+	width: 50%;
+	margin-left: 40px;
+}
+
+#about2 img {
+	width: 70%;
+	height: 70%;
+}
+
+#p-left2 {
+	float: right;
+	display: inline;
+	position: absolute;
+	width: 45%;
+	margin-left: 10px;
+	margin-top: -14px;
+}
+
+#about-banner {
+	height: 200px;
+	background-image:url("images/about-banner.jpg");
+}
+
+
+/* FOOTER CSS */
+
+#footer{
+	height: 200px;
+	background-color: gray;
+	clear: both;
+	position: relative;
+}
+
+#footer h3{
+	text-align: center;
+	color: #f4f4f4;
+}
+
+#socmed {
+	margin-top: 30px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#Fb {
+   background:url("images/facebook.png") no-repeat; 
+   height: 65px;
+   width: 65px;
+   display: inline-block;
+   margin-right: 15px;
+ 
+ 
+}
+
+#Fb:hover {
+   background:url("images/facebook-hover.png")no-repeat;
+   height: 65px;
+   width: 65px;
+   margin-right: 15px;
+   display: inline-block;
+}
+
+#Twitter {
+   background:url("images/twitter.png") no-repeat; 
+   height: 65px;
+   width: 65px;
+   display: inline-block;
+   margin-right: 15px;
+  
+ 
+}
+
+#Twitter:hover {
+   background:url("images/twitter-hover.png")no-repeat;
+   height: 65px;
+   width: 65px;
+   display: inline-block;
+   margin-right: 15px;
+
+}
+
+#Insta{
+   background:url("images/Instagram.png") no-repeat; 
+   height: 65px;
+   width: 65px;
+   display: inline-block;
+   margin-right: 15px;
+  
+}
+
+#Insta:hover{
+   background:url("images/Instagram-hover.png") no-repeat; 
+   height: 65px;
+   width: 65px;
+   display: inline-block;
+   margin-right: 15px;
+
+}
+
+#Youtube{
+   background:url("images/youtube.png") no-repeat; 
+   height: 65px;
+   width: 65px;
+   display: inline-block;
+   margin-right: 15px;
+  
+}
+
+#Youtube:hover{
+   background:url("images/youtube-hover.png") no-repeat; 
+   height: 65px;
+   width: 65px;
+   display: inline-block;
+   margin-right: 15px;
+
+}
+
