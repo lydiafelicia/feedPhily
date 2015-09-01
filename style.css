@@ -503,7 +503,7 @@ iframe {
 #logo {
 	float: left;
 	padding-top:30px;
-    padding-left: 15px;
+    padding-left: 40px;
     display: inline-block;
     position: relative;
 	z-index:999;
@@ -575,7 +575,7 @@ iframe {
 
 
 .select-style-small {
-	padding: 0;
+	padding: 1px 4px;
     margin: 0;
     border: 2px solid #4A4A4A;;
     color: #4A4A4A;
@@ -588,8 +588,8 @@ iframe {
 }
 
 .select-style-small select {
-    padding: 3px 4px;
-    width: 130%;
+    padding: 1px 4px;
+    width: 100%;
     border: none;
     box-shadow: none;
     background-color: transparent;
@@ -637,9 +637,8 @@ iframe {
 
 /* ABOUT PAGE CSS */
 #about {
-	display: block;
 	margin-left: 10px;
-	margin-bottom: 200px;
+	margin-bottom: 150px;
 }
 
 #about h1{
@@ -663,12 +662,12 @@ iframe {
 #about1 img {
 	width: 70%;
 	height: 70%;
+
 }
 
 
 #p-left1 {
-	float: left;
-	display: inline;
+	display:inline;
 	position: absolute;
 	width: 45%;
 	margin-left: 10px;
@@ -686,7 +685,6 @@ iframe {
 }
 
 #p-left2 {
-	float: right;
 	display: inline;
 	position: absolute;
 	width: 45%;
