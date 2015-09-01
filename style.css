@@ -387,6 +387,18 @@ iframe {
 	width: 100%;
 	height:450px;
 }
+
+#data{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#data p {
+	text-align: center;
+	font-size: 14px;
+	color: #4A4A4A;
+
+}
 /* TABLE @CONTACT.HTML STYLING */
 #contactForm2 {
 	background-color: #EE5B4C;
@@ -697,6 +709,11 @@ iframe {
 	position: relative;
 }
 
+#data h4{
+	text-align: center;
+	color: #4A4A4A;
+}
+
 #footer h3{
 	text-align: center;
 	color: #f4f4f4;
@@ -781,4 +798,3 @@ iframe {
    margin-right: 15px;
 
 }
-
